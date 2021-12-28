@@ -1,0 +1,129 @@
+body {
+    background: #afa4a4;
+    margin: 0px;
+    padding: 0px;
+}
+
+#text {
+    border: black 1px solid;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+h1 {
+    color: #d42fcc;
+}
+
+hr {
+    margin: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+}
+
+body {
+    background-color: #2baee2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: #ffff;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    outline: none;
+}
+
+input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #ff009d;
+    color: grey;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    padding-top: 20p;
+    font-size: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+}
+
+.app p {
+    font-family: fantasy;
+    color: #ffff;
+}
+
+.links p {
+    font-family: fantasy;
+    color: #ffff;
+}
+
+.follow p {
+    font-family: fantasy;
+    color: #ffff;
+}
+
+.links li a {
+    list-style: style;
+    color: #ffff;
+    font-family: monospace;
+}
+
+.follow li a {
+    list-style: style;
+    color: #ffff;
+    font-family: monospace;
+}

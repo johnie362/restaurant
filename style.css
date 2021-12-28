@@ -1,0 +1,85 @@
+body{background: #afa4a4;
+    margin: 0px;
+    padding: 0px;
+}
+
+#text{border:black 1px solid;
+margin-left: 20px;
+padding: 10px;}
+h1{color: #d42fcc;}
+hr {margin: 20px;}
+.nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.nav ul li{display: inline-block;
+   margin-left: 50px;
+    list-style-type: none;
+}
+.nav ul li a{text-decoration:none ;
+font-family:Arial, Helvetica, sans-serif;
+color:#0f0f0f;
+}
+
+.landing {
+    background:linear-gradient(0,0,0,0.9,),rgba(0, 0, 0, 0.8);
+    background-image: url(images/land.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:100vh ;
+    width: 100%;
+     box-sizing: border-box;
+}
+.landing h1{text-align: center;
+    padding-top: 200px;
+    color:#ffff;}
+    .landing p{text-align: center;
+    color:#ffff;
+    font-family: cursive;
+}
+.landing a{text-align: center;
+    text-decoration: none;
+    
+}
+
+.landing a{display:block ;
+    width: 50%;
+max-width: 350px;
+background:#d42fcc ;
+color: #ffff;
+text-decoration:none;
+text-align: center;
+padding: 14px 0;
+border-radius: 30px;
+margin: 60px auto;
+font-size: 18px;
+transition:transform 0.5s;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.landing a:hover{transform:scale(0.9);}
+.footer{display: flex;
+justify-content: space-evenly;
+align-items:center;
+background:black;
+}
+.app p{font-family: fantasy;
+    color:#ffff;
+}
+.links p{font-family: fantasy;
+    color:#ffff;
+}
+.follow p{font-family: fantasy;
+    color:#ffff;
+}
+.links li a{list-style: style;
+color:#ffff;
+font-family: monospace;}
+.follow li a{list-style: style;
+    color:#ffff;
+    font-family: monospace;}

@@ -1,0 +1,97 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+#text{border:black 1px solid;
+  margin-left: 20px;
+  padding: 10px;}
+  h1{color: #d42fcc;}
+  hr {margin: 20px;}
+  .nav{ 
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  
+  }
+  
+  
+  .nav ul li{display: inline-block;
+     margin-left: 50px;
+      list-style-type: none;
+  }
+  .nav ul li a{text-decoration:none ;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#0f0f0f;
+  }
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  height: 50px;
+  background: orange;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
+}
+
+.app p{font-family: fantasy;
+  color:#ffff;
+}
+.links p{font-family: fantasy;
+  color:#ffff;
+}
+.follow p{font-family: fantasy;
+  color:#ffff;
+}ss
+.links li a{list-style: style;
+color:#ffff;
+font-family: monospace;}
+.follow li a{list-style: style;
+  color:#ffff;
+  font-family: monospace;}
